@@ -14,7 +14,7 @@ model.fit(iris.data,iris.target)
 
 #Make a prediction
 
-print "Prediction with Scikit Iris Model"
+print "Prediction with Scikit Iris Model Test"
 # Sepal length , sepal width , petal length , petal width
 print iris.target_names[model.predict([  [ 1.0 , 2.0, 0.0, 0.0]  ])]
 joblib.dump(model,"iris.pkl")
